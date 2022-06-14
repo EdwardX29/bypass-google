@@ -40,7 +40,7 @@ def index():
                 docx = new_parser.parse_html_string(d.prettify())
                 docx.save(f"uploads/docx/{docName}.docx")
                 #return redirect(url_for('download_file', doc_type="docx", name=f"{docName}.docx"))
-                return render_template("index.html", doc_type="docx", name=f"{docName}.csv")
+                return render_template("index.html", doc_type="docx", name=f"{docName}.docx")
 
             except Exception:
                 return redirect(url_for("index"))
