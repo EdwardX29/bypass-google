@@ -39,7 +39,6 @@ def index():
                 d = div.find("div")
                 docx = new_parser.parse_html_string(d.prettify())
                 docx.save(f"uploads/docx/{docName}.docx")
-                #return redirect(url_for('download_file', doc_type="docx", name=f"{docName}.docx"))
                 return render_template("index.html", doc_type="docx", name=f"{docName}.docx")
 
             except Exception:
@@ -48,14 +47,6 @@ def index():
         return redirect(url_for("index"))
     else:
         return render_template("index.html")
-
-# @app.after_request
-#     def delete(response):
-#         try:
-#             os.remove(app.config["UPLOAD_FOLDER"] + f"/{doc_type}/{name}")
-#         except Exception: 
-#             pass
-# return response
 
 @app.route('/uploads/<doc_type>/<name>')
 def download_file(doc_type, name):
