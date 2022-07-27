@@ -36,7 +36,7 @@ Bypass Google is a website that allows user to download any public Google Doc an
 ![Step 2 image](https://raw.githubusercontent.com/EdwardX29/bypass-google/main/.github/images/doc-id2.png)
 3. Enter the ID in the form
 ![Step 3 image](https://raw.githubusercontent.com/EdwardX29/bypass-google/main/.github/images/step2.png)
-4. Select the type of file and click Bypass!
+4. Select the type of file and click Bypass.
 ![Step 4 image](https://raw.githubusercontent.com/EdwardX29/bypass-google/main/.github/images/step3.png) 
 5. Click the button to download the file.
 ![Step 5 image](https://raw.githubusercontent.com/EdwardX29/bypass-google/main/.github/images/step4.png) 
