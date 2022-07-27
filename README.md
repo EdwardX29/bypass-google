@@ -17,13 +17,15 @@
 
 Bypass Google is a website that allows user to download any public Google Doc and Google Sheet as a .docx and .csv file respectively. Bypass Google is best utilized for "view-only" documents where downloading is blocked on the Google editor. The website makes use of BeautifulSoup, requests, pandas, and htmldocx to scrape and convert data along with Flask as the web server. Uploaded files are deleted in 1 day.
 
+[Back To The Top](#bypass-google-web-app)
+
 #### Technologies:
 
 - Flask
 - Bootstrap 5
 - BeautifulSoup, Requests, Pandas, [htmldocx](https://pypi.org/project/htmldocx/)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#bypass-google-web-app)
 
 ---
 
@@ -51,7 +53,7 @@ flask run # run the app
 ## References
 - [htmldocx library](https://pypi.org/project/htmldocx/)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#bypass-google-web-app)
 
 ---
 
@@ -60,4 +62,4 @@ flask run # run the app
 
 - Github - [EdwardX29](https://github.com/EdwardX29)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#bypass-google-web-app)
